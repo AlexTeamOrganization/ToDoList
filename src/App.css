@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+*{
+    font-family: 'Jua', sans-serif;
+    box-sizing: border-box;
+}
+html, body {
+    overflow: hidden;
+    padding: 3%;
+    margin: 0;
+    height: 100%;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+input[type=text]{
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    left: 10%;
+}
+
+.item{
+    text-align: center;
+    font-size: 20px;
+    height: auto;
+    line-height: normal;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline-style: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.TodoItem{
+    padding: 5px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 4px 0 3px #ff6269;
+    display: flex;
+}
+
+.content {
+    color: #ff6269;
+    display: inline;
+    flex-basis: auto;
+    cursor: pointer;
+}
+
+.body{
+    background-color: #c0c0c0;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.line{
+    text-decoration-line: line-through;
+}
+
+.box {
+    padding: 20px;
+    height: 76%;
+    overflow: auto;
+}
+
+.body-back {
+    border-radius: 20px;
+    background-color: #ff6269;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-size: 60px;
+}
+
+.margin-top{
+    margin: 30px 0;
+}
