@@ -2,4 +2,4 @@ npm i react
 </br>
 npm i react-icons --save
 </br>
-yarn add -D gh-pages
+[[go to do list]](https://delicate-gumption-3bcbdc.netlify.app/)
