@@ -105,9 +105,9 @@ input[type=text]{
 
 @media (max-width: 600px) {
     .title{
-        font-size: 30px;
+        font-size: 26px;
     }
     .item{
-        font-size: 15px;
+        font-size: 10px;
     }
 }
