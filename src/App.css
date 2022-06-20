@@ -4,6 +4,19 @@
     font-family: 'Jua', sans-serif;
     box-sizing: border-box;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ff6269;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+}
+
 html, body {
     overflow: hidden;
     padding: 3%;
@@ -88,4 +101,13 @@ input[type=text]{
 
 .margin-top{
     margin: 30px 0;
+}
+
+@media (max-width: 600px) {
+    .title{
+        font-size: 36px;
+    }
+    .item{
+        font-size: 15px;
+    }
 }
