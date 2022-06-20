@@ -75,6 +75,7 @@ input[type=text]{
     background-color: #c0c0c0;
     border-radius: 20px;
     height: 100%;
+    overflow: auto;
 }
 
 .line{
@@ -83,8 +84,7 @@ input[type=text]{
 
 .box {
     padding: 20px;
-    height: 76%;
-    overflow: auto;
+    height: 100%;
 }
 
 .body-back {
@@ -105,9 +105,9 @@ input[type=text]{
 
 @media (max-width: 600px) {
     .title{
-        font-size: 36px;
+        font-size: 15px;
     }
     .item{
-        font-size: 15px;
+        font-size: 5px;
     }
 }
